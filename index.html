@@ -2,102 +2,87 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario</title>
     <link rel="stylesheet" href="style.css">
-    <title>Tv ultra hd 4k</title>
 </head>
-<body>
-  <header class="inicio">   <!--apresentações-->
-<div class="inicial">
-  <h1 class="titulo01"><img class="imgheader" src="img/logo samsung.png" alt="" width="150px"></h1>
-<h2 class="loremh2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae!</h2>
-<a href="#" class="linkheader">Veja mais!!</a>
-</div>
-  </header>
- <Section class="imageTv"> <!--Imagem do produto-->
-   <div class="imgTv">
-     <img src="img/tv.jpg" alt=""class="image">
-     <h3 class="h31">Informações</h3>
-     <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo perferendis dolore ipsam non ratione cumque beatae. Sed aliquam minus ipsa sequi ex ut quia, soluta aliquid pariatur veritatis, cum debitis saepe dicta recusandae ad maxime, assumenda ipsam nobis quo dignissimos.</p>
-   </div>
- </Section>
- <section>
- <ul class="icones"><!-- imagem  e icones -->
-<li>
-  <img src="img/monitor-de-tv.png" alt="" width="150px">
-  <p>Lorem, ipsum dolor.</p>
-</li>
-<li>
-<img src="img/smart-tv.png" alt="" width="150px">
-<p>Lorem ipsum dolor sit.</p>
-</li>
-<li>
-<img src="img/4k.png" alt="" width="150px">
-<p>Lorem ipsum dolor sit amet.</p>
-</li>
- </ul>
-</section>
-  <section><!-- texto de convençao-->
-    <div class="texth3">
-      <h3 class="textH3">Todos os recursos do nosso produto</h3>
-      <p class=" paragtexth3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, praesentium.
-      <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vero simi
-      <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eius temporibus. Iste ducimus libero cumque repellendus, ut voluptas necessitatibus nisi.
-      <br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui eos impedit at.
-    </p>
-    </div>
-  </section>
-  <section class="declaracao"> <!--declaração do cliente-->
-<div  class="declacliente">
-<blockquote class="cliente">
-  <p class="citaçao">"Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. </p>
-  <cite class="citacao">-Cliente satisfeito</cite>
-</blockquote>
-</div>
-</section>
+<body class="body"> 
+    <form class="form"> <!--formulario-->
+    
+    <p class="p1">Preencha os campos abaixos para realizar seu cadastro</p>
 
-<section class="razoes"><!--razoes -->
-<div class="textlist">
-<img src="img/sinal-de-configuracoes-de-video-ultra-4k-icone-de-plexo-ilustracao-vetorial-de-estoque_100456-7729.jpg" alt=""  class="img4k">
+<fieldset  class="field">
+
+        <div>
+    
+         <Label for="nome">Nome</Label>
+         <input class="inp1" type="text" name="nome" id="nome" placeholder="Nome">
+         <label for="sobrenome"></label>
+         <input  class="inp1"type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+     
+        </div>
+
+</fieldset>
+<br>
+<div class="email">
+    
+        <label for="email"> Email</label>
+        <input class="inp2" type="email" name="email" id="email" placeholder="Email">
+        <label for="tel"></label>
+        <input class="inp2" type="tel" name="telefone" id="tel" placeholder="Celular">
+    
 </div>
-<div class="lists">
-  <ul>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem, ipsum dolor.</li>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem ipsum dolor sit.</li>
-    <li>Lorem, ipsum dolor.</li>
-  </ul>
-  </div> 
-  <div class="lists">
-    <ul>
-      <li>Lorem ipsum dolor sit amet.</li>
-      <li>Lorem ipsum dolor sit.</li>
-      <li> Lorem, ipsum dolor.</li>
-      <li>Lorem ipsum dolor sit amet consectetur.</li>
-      <li>Lorem ipsum dolor sit</li>
-    </ul>
-  </div>
+
+<br>
+<div class="gen">
+    
+      <label>Selecione o Gênero que você se identifica</label>
+      <label><!---Para o input de genero-->
+      <input class="inp3" type="radio" name="gen"value="Escolha" checked>Selecione
+      </label>
+       <label>
+       <input class="inp3" type="radio" name="gen" value="Masculino">Masculino
+       </label>
+       <label>
+       <input class="inp3"type="radio" name="gen" value="Feminino">Feminino
+       </label>
+</div>   
+<br>
+<div class="data">
+
+<label for="data"> Qual a sua data de nascimento?</label>
+<input class="inpdt" type="date" id="data" placeholder="">
+    
 </div> 
-</section>
-<section class="comprar"><!--botao comprar-->
-  <div class="compre">
-<div class="link"><h3> Why you still reading?</h3></div>
-<a href="#" class="linkorders">Orders yours now!</a>
+<br>
+<div class="city">
+    <label for="cidade">Qual cidade voce mora?</label>
+    <input class="inpct" type="text" id="cidade" value="">
 </div>
 
-</section>
-<footer><!--Partes  da autoria -->
-<div class="footer">
-<ul class="listadesorde">
-  <li class="lifooter"><a href="#"class="lilink">Informação</a></li>
-  <li class="lifooter"><a href="#" class="lilink">Contato</a></li>
-  <li class="lifooter"><a href="#"class="lilink">Topo</a></li> 
-  <li class="lifooter"><a href="#" class="lilink">Main page</a></li>
-</ul>
-<p> &copy;2022 project test. All rigths reserved.</p>
-</div>
-</footer>
+<br>
+    <div class="end">
+    
+        <label>Endereço</label>
+        <input class="inpend"type="text" name="endereco" placeholder="Endereço">
+        <label id="end" >Cep</label>
+        <input class="inpend" type="text" name="cep"placeholder="Cep"> 
+    
+    </div> 
+    <br>
+         <div>
+         <fieldset id="field">
+          <label class="label" for="text" type="text"> Conte o que achou desse projeto </label>
+         <br>
+
+         <textarea id="text" name="text" rows="4" cols="16"></textarea>
+
+         </div>
+         <br>
+    <button class="botao" type="submit">Concluido</button>
+
+
+</form>
 </body>
 </html>
